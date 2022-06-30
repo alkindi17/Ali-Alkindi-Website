@@ -1,0 +1,359 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/portfoliobg.jpg);
+	background-attachment: fixed;
+	height:100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	font-family:'Poppins', sans-serif;
+}
+
+.topic {
+	background: #efefef;
+	height:1100px;
+	width:100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	font-family:'Poppins', sans-serif;
+}
+.about{
+	background:white;
+	box-sizing: border-box;
+	border-radius: 40px;
+	text-align:center;
+	padding: 30px 40px;
+	width:90%;
+	margin:5%;
+	right: 40px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+
+}
+
+
+.swipe{
+	background:white;
+	box-sizing: border-box;
+	border-radius: 15px;
+	text-align:center;
+	padding: 30px 40px;
+	width:50%;
+	height:470px;
+	margin:5%;
+	right: 40px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+
+}
+
+.view{
+	background:white;
+	box-sizing: border-box;
+	border-radius: 15px;
+	text-align:left;
+	padding: 30px 30px;
+	width:80%;
+	height:470px;
+	margin:-74% 120%;
+	right: 40px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+
+}
+
+
+.view h1{
+	color: #000;
+	text-align: left;
+	font-size: 37px;
+	padding-bottom:35px;
+
+}
+
+.view h2{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.view h3{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+}
+
+.view h4{
+	color: #000;
+	text-align: left;
+	font-size: 15px;
+	padding-top: 25px;
+}
+.view a {
+	border:1.5px solid #000;
+	padding: 10px 25px;
+	background:#fff;
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #000;
+	border-radius: 5px;
+	transition: all 0.7s ease;
+
+
+
+
+
+}
+.view a:hover {
+	border:1.5px solid #000;
+	background: #000;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+	color: #fff;
+	text-decoration:none;
+	transition: all 0.7s ease;
+
+
+}
+.about h1{
+	font-size:25px;
+	padding-bottom:20px;
+
+}
+
+
+.about h2{
+	font-size:15px;
+
+}
+
+.about h3{
+	font-size:25px;
+	padding-top:75px;
+
+}
+
+
+.social a{
+	display: inline-block;
+	margin: 20 10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size:25px;
+	line-height:50px;
+	color: #fff;
+	text-decoration:none;
+	background:gray;
+	border-radius: 50%;
+	transition: all 0.7s ease;
+
+
+}
+
+.facebook {
+	display:inline;
+}
+
+.facebook a:hover{
+	background-color:#3b5998;
+	color: #fff;
+	text-decoration:none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    transition: all 0.7s ease;
+
+
+
+}
+
+.instagram {
+	display:inline;
+}
+
+.instagram a:hover{
+	background-color:#cd486b;
+	color: #fff;
+	text-decoration:none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	transition: all 0.7s ease;
+
+
+}
+
+.twitter {
+	display:inline;
+}
+
+.twitter a:hover{
+	background-color:#00acee ;
+	color: #fff;
+	text-decoration:none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	transition: all 0.7s ease;
+
+
+}
+
+.youtube {
+	display:inline;
+}
+
+.youtube a:hover{
+	background-color:#FF0000;
+	color: #fff;
+	text-decoration:none;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+	transition: all 0.7s ease;
+    
+
+}
+
+
+
+
+
+@supports (font-variation-settings: "wght" 900) {
+	 .about h1, .about h3{
+      font-family: 'Montserrat';
+      font-weight: 700;
+     }
+     
+     .about h2{
+      font-family: 'Montserrat';
+      font-weight: 300;
+     }
+  
+     
+     .view h3, .view h4{
+      font-family: 'Montserrat';
+      font-weight: 300;
+     }
+     
+     .view h1{
+      font-family: 'Montserrat';
+      font-weight: 500;
+     }
+     
+     .view a{
+      font-family: 'Montserrat';
+      font-weight: 600;
+     }
+     
+
+
+    
+
+
+
+
+
+.nav-area {
+ 	position: relative;
+	float: right;
+	list-style: none;
+	margin-top: 35px;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	transition: all 0.7s ease;
+
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+	transition: all 0.7s ease;
+
+}
+.logo {
+	position:relative;
+	float: left;
+}
+.logo img {
+	padding: 0px 0;
+	
+}
+
+.welcome-text {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	top: 40%;
+	text-align: center;
+}
+.welcome-text h1 {
+	font-family: 'Montserrat', serif;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	padding-bottom:20px;
+}
+.welcome-text h2 {
+	font-family: 'Montserrat', serif;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+}
+
+.welcome-text h3 {
+	font-family: 'Montserrat', serif;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	
+}
+.welcome-text a {
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.welcome-text a:hover {
+	padding: 10px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+
+
+.footer{
+	display: inline;
+	width: 100%;
+	position:absolute;
+	bottom: 0; 
+	color:black;
+	text-align: center;
+	font-size: 10px;
+	style:"margin-bottom:0";
+	padding-bottom:10px;
+}
+
